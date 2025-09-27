@@ -73,7 +73,7 @@ bool Heavy_unit::guide_gun() {
 }  // end scope
 
 bool Heavy_unit::ultimate() {
-    std::cout << get_name() << "loads a 'baby' bomb into a bazooka" << std::endl;
+    std::cout << get_name() << "loads a 'baby' bomb" << std::endl;
 
     std::cout << get_class_name() << " Method: " << __func__ << std::endl;
 
