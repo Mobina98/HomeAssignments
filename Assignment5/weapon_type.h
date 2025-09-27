@@ -106,14 +106,11 @@ public:
     ~AWP() = default;
 };
 
-/**
- * @class Bazooka
- * @brief Represents a unit/role within the game logic.
- */
-class Bazooka : public Gun {
+
+class HeavyUnit : public Gun {
 public:
 /**
- * @brief Function `Bazooka`.
+ * @brief Function `HeavyUnit`.
  * @param name parameter.
  * @param damage parameter.
  * @param ammo parameter.
