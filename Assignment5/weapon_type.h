@@ -106,19 +106,22 @@ public:
     ~AWP() = default;
 };
 
-
-class HeavyUnit : public Gun {
+/**
+ * @class Bazooka
+ * @brief Represents a unit/role within the game logic.
+ */
+class Bazooka : public Gun {
 public:
 /**
- * @brief Function `HeavyUnit`.
+ * @brief Function `Bazooka`.
  * @param name parameter.
  * @param damage parameter.
  * @param ammo parameter.
  * @return Return value description (if any).
  */
-    HeavyUnit(const std::string &name, const unsigned int &damage, const unsigned int &ammo);
+    Bazooka(const std::string &name, const unsigned int &damage, const unsigned int &ammo);
 
-    ~HeavyUnit() = default;
+    ~Bazooka() = default;
 };
 
 /**
