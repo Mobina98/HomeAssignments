@@ -119,9 +119,9 @@ public:
  * @param ammo parameter.
  * @return Return value description (if any).
  */
-    Bazooka(const std::string &name, const unsigned int &damage, const unsigned int &ammo);
+    HeavyUnit(const std::string &name, const unsigned int &damage, const unsigned int &ammo);
 
-    ~Bazooka() = default;
+    ~HeavyUnit() = default;
 };
 
 /**
