@@ -90,7 +90,7 @@ AWP::AWP(const std::string &name, const unsigned int &damage, const unsigned int
     set_damage(ammo);
 }  // end scope
 
-Bazooka::Bazooka(const std::string &name, const unsigned int &damage,
+HeavyUnit::HeavyUnit(const std::string &name, const unsigned int &damage,
                  const unsigned int &ammo): Gun(name, damage, ammo) {
 /**
  * @brief Function `set_weapon_type`.
